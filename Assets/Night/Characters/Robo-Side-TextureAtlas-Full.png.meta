@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: 1c942caae5ccd98418c39a9927e7311a
+timeCreated: 1448280799
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Robo-Light-Front
+    21300002: Robo-Light
+    21300004: Robo-Light-Back
+    21300006: Robo-Belly
+    21300008: Robo-Antenna-L
+    21300010: Robo-Antenna-R
+    21300012: Robo-Shoulder-L
+    21300014: Robo-Head
+    21300016: Robo-Shoulder-R
+    21300018: Robo-Arm-L
+    21300020: Robo-Side-TextureAtlas-Full_10
+    21300022: Robo-Arm-R
+    21300024: Robo-Side-TextureAtlas-Full_12
+    21300026: Robo-Hand-L
+    21300028: Robo-Chest
+    21300030: Robo-Wheel
+    21300032: Robo-Hand-R
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Robo-Light-Front
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 634
+        width: 187
+        height: 165
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Light
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 700
+        width: 113
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Light-Back
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 662
+        width: 156
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Belly
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 605
+        width: 268
+        height: 190
+      alignment: 9
+      pivot: {x: .48085022, y: .170461878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Antenna-L
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 618
+        width: 62
+        height: 57
+      alignment: 9
+      pivot: {x: .847661674, y: .0858261362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Antenna-R
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 614
+        width: 56
+        height: 59
+      alignment: 9
+      pivot: {x: .170075551, y: .169454277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Shoulder-L
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 476
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Head
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 361
+        width: 426
+        height: 230
+      alignment: 9
+      pivot: {x: .53855139, y: .116204172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Shoulder-R
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 483
+        width: 84
+        height: 92
+      alignment: 9
+      pivot: {x: .512219369, y: .511156857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Arm-L
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 303
+        width: 69
+        height: 147
+      alignment: 9
+      pivot: {x: .485124111, y: .911968827}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Side-TextureAtlas-Full_10
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 374
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Arm-R
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 310
+        width: 58
+        height: 129
+      alignment: 9
+      pivot: {x: .570788145, y: .91375494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Side-TextureAtlas-Full_12
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 359
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Hand-L
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 179
+        width: 83
+        height: 98
+      alignment: 9
+      pivot: {x: .413433641, y: .877055883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Chest
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 186
+        width: 191
+        height: 150
+      alignment: 9
+      pivot: {x: .516121984, y: .13732788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Wheel
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 137
+        width: 214
+        height: 199
+      alignment: 9
+      pivot: {x: .504796267, y: .897161424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Robo-Hand-R
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 194
+        width: 79
+        height: 83
+      alignment: 9
+      pivot: {x: .525985539, y: .858632267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
