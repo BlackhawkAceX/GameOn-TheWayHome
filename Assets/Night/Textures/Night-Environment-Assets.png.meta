@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 43cbb179b8ae9bf4b88cf8e637922e42
-timeCreated: 1448236836
+timeCreated: 1448371467
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -15,6 +15,11 @@ TextureImporter:
     21300016: Night-Environment-Assets_8
     21300018: Night-Environment-Assets-Twig
     21300020: Night-Environment-Assets-Wheel
+    21300022: Night-Environment-Assets-PowerBox
+    21300024: Night-Environment-Assets-Button-Lever
+    21300026: Night-Environment-Assets-Button-Base
+    21300028: Night-Environment-Assets-Fence
+    21300030: Night-Environment-Assets-Lantern
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -84,8 +89,8 @@ TextureImporter:
     - name: Night-Environment-Assets-Tower
       rect:
         serializedVersion: 2
-        x: 24
-        y: 496
+        x: 26
+        y: 489
         width: 490
         height: 790
       alignment: 0
@@ -94,8 +99,8 @@ TextureImporter:
     - name: Night-Environment-Assets-Pylon
       rect:
         serializedVersion: 2
-        x: 583
-        y: 1021
+        x: 520
+        y: 1016
         width: 194
         height: 265
       alignment: 0
@@ -104,8 +109,8 @@ TextureImporter:
     - name: Night-Environment-Assets-Star-01
       rect:
         serializedVersion: 2
-        x: 810
-        y: 1234
+        x: 746
+        y: 1238
         width: 26
         height: 38
       alignment: 0
@@ -114,8 +119,8 @@ TextureImporter:
     - name: Night-Environment-Assets-Star-02
       rect:
         serializedVersion: 2
-        x: 853
-        y: 1251
+        x: 789
+        y: 1252
         width: 22
         height: 21
       alignment: 0
@@ -124,8 +129,8 @@ TextureImporter:
     - name: Night-Environment-Assets-Star-03
       rect:
         serializedVersion: 2
-        x: 892
-        y: 1248
+        x: 828
+        y: 1250
         width: 33
         height: 24
       alignment: 0
@@ -134,8 +139,8 @@ TextureImporter:
     - name: Night-Environment-Assets-Moon
       rect:
         serializedVersion: 2
-        x: 1018
-        y: 1000
+        x: 971
+        y: 1015
         width: 386
         height: 386
       alignment: 0
@@ -154,8 +159,8 @@ TextureImporter:
     - name: Night-Environment-Assets-Twig
       rect:
         serializedVersion: 2
-        x: 1053
-        y: 582
+        x: 743
+        y: 819
         width: 174
         height: 360
       alignment: 0
@@ -168,6 +173,56 @@ TextureImporter:
         y: 496
         width: 326
         height: 268
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Night-Environment-Assets-PowerBox
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1189
+        width: 167
+        height: 214
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Night-Environment-Assets-Button-Lever
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 936
+        width: 48
+        height: 57
+      alignment: 9
+      pivot: {x: .80882901, y: .832885742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Night-Environment-Assets-Button-Base
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 840
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Night-Environment-Assets-Fence
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 694
+        width: 370
+        height: 292
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Night-Environment-Assets-Lantern
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 567
+        width: 293
+        height: 579
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
