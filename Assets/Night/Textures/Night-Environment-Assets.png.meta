@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 43cbb179b8ae9bf4b88cf8e637922e42
-timeCreated: 1448371467
+timeCreated: 1448406712
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -20,6 +20,12 @@ TextureImporter:
     21300026: Night-Environment-Assets-Button-Base
     21300028: Night-Environment-Assets-Fence
     21300030: Night-Environment-Assets-Lantern
+    21300032: Night-Environment-Assets-Ladder
+    21300034: Night-Environment-Assets-Bridge-Stone
+    21300036: Night-Environment-Assets-Bridge
+    21300038: Night-Environment-Assets-Bridge-Chain
+    21300040: Night-Environment-Assets-Light-On
+    21300042: Night-Environment-Assets-Sheen
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -69,19 +75,19 @@ TextureImporter:
     - name: Night-Environment-Assets-House
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1286
-        width: 949
-        height: 714
+        x: 26
+        y: 1281
+        width: 957
+        height: 718
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Night-Environment-Assets-Bush
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 1443
-        width: 628
+        x: 1036
+        y: 1444
+        width: 630
         height: 534
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -106,43 +112,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Night-Environment-Assets-Star-01
-      rect:
-        serializedVersion: 2
-        x: 746
-        y: 1238
-        width: 26
-        height: 38
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Night-Environment-Assets-Star-02
-      rect:
-        serializedVersion: 2
-        x: 789
-        y: 1252
-        width: 22
-        height: 21
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Night-Environment-Assets-Star-03
-      rect:
-        serializedVersion: 2
-        x: 828
-        y: 1250
-        width: 33
-        height: 24
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Night-Environment-Assets-Moon
       rect:
         serializedVersion: 2
-        x: 971
-        y: 1015
-        width: 386
-        height: 386
+        x: 986
+        y: 1012
+        width: 407
+        height: 394
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,7 +146,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 583
-        y: 496
+        y: 499
         width: 326
         height: 268
       alignment: 0
@@ -179,8 +155,8 @@ TextureImporter:
     - name: Night-Environment-Assets-PowerBox
       rect:
         serializedVersion: 2
-        x: 1398
-        y: 1189
+        x: 1431
+        y: 1188
         width: 167
         height: 214
       alignment: 0
@@ -219,10 +195,70 @@ TextureImporter:
     - name: Night-Environment-Assets-Lantern
       rect:
         serializedVersion: 2
-        x: 1373
-        y: 567
+        x: 1395
+        y: 593
         width: 293
         height: 579
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Night-Environment-Assets-Ladder
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1326
+        width: 171
+        height: 645
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Night-Environment-Assets-Bridge-Stone
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 329
+        width: 130
+        height: 124
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Night-Environment-Assets-Bridge
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 392
+        width: 757
+        height: 66
+      alignment: 9
+      pivot: {x: .0216287784, y: .81899792}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Night-Environment-Assets-Bridge-Chain
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 247
+        width: 1084
+        height: 72
+      alignment: 9
+      pivot: {x: .98431319, y: .6949628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Night-Environment-Assets-Light-On
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1207
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Night-Environment-Assets-Sheen
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1181
+        width: 101
+        height: 97
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
