@@ -6,7 +6,7 @@ using System.Collections;
 public class Interaction : MonoBehaviour {
 
     public float interactionDistance;
-    private bool canInteract = false;
+    private bool canInteract;
     public Transform m_Character;
     public Transform m_Object;
 
