@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 43cbb179b8ae9bf4b88cf8e637922e42
-timeCreated: 1448406712
+timeCreated: 1448726397
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -26,6 +26,7 @@ TextureImporter:
     21300038: Night-Environment-Assets-Bridge-Chain
     21300040: Night-Environment-Assets-Light-On
     21300042: Night-Environment-Assets-Sheen
+    21300044: Night-Environment-Assets-Lantern-Cone
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -259,6 +260,16 @@ TextureImporter:
         y: 1181
         width: 101
         height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Night-Environment-Assets-Lantern-Cone
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 5
+        width: 575
+        height: 555
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
