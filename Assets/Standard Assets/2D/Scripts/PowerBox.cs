@@ -57,6 +57,10 @@ public class PowerBox : MonoBehaviour {
            GameObject lantern3 = GameObject.Find("Night-Environment-Assets-Lantern (4)");
            Lantern lanternOn3 = (Lantern)lantern3.GetComponent(typeof(Lantern));
            lanternOn3.PowerOn(true);
+           //House
+           GameObject house = GameObject.Find("Night-Environment-Assets-House");
+           Lantern houseOn = (Lantern)house.GetComponent(typeof(Lantern));
+           houseOn.PowerOn(true);
         }
     }
 }
