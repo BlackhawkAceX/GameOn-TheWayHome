@@ -38,7 +38,7 @@ public class PowerBox : MonoBehaviour {
             inRange = false;
         //    Debug.Log("Not Interactable");
         }
-        if (inRange == true && interaction == true && interacted == false)
+        if (inRange == true && interaction == true && interacted == false && Power.flicker == true)
         {
            //Event
            interacted = true;
@@ -47,19 +47,19 @@ public class PowerBox : MonoBehaviour {
 
            //Turning On Lanterns
            GameObject lantern1 = GameObject.Find("Night-Environment-Assets-Lantern");
-           Lantern lanternOn1 = (Lantern)lantern1.GetComponent(typeof(Lantern));
+           Power lanternOn1 = (Power)lantern1.GetComponent(typeof(Power));
            lanternOn1.PowerOn(true);
            //2
            GameObject lantern2 = GameObject.Find("Night-Environment-Assets-Lantern (3)");
-           Lantern lanternOn2 = (Lantern)lantern2.GetComponent(typeof(Lantern));
+            Power lanternOn2 = (Power)lantern2.GetComponent(typeof(Power));
            lanternOn2.PowerOn(true);
            //3
            GameObject lantern3 = GameObject.Find("Night-Environment-Assets-Lantern (4)");
-           Lantern lanternOn3 = (Lantern)lantern3.GetComponent(typeof(Lantern));
+            Power lanternOn3 = (Power)lantern3.GetComponent(typeof(Power));
            lanternOn3.PowerOn(true);
            //House
            GameObject house = GameObject.Find("Night-Environment-Assets-House");
-           Lantern houseOn = (Lantern)house.GetComponent(typeof(Lantern));
+           Power houseOn = (Power)house.GetComponent(typeof(Power));
            houseOn.PowerOn(true);
         }
     }
