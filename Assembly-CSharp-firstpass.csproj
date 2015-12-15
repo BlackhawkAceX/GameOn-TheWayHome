@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{EB01AE29-CAEA-397A-3220-93928B3E508D}</ProjectGuid>
+	<ProjectGuid>{4DCE5232-7202-43F5-4132-93180C1F0D70}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -38,13 +38,30 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Programme/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Programme/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\FMOD\BankRefAttribute.cs" />
+     <Compile Include="Assets\Plugins\FMOD\EventRefAttribute.cs" />
+     <Compile Include="Assets\Plugins\FMOD\FMODAsset.cs" />
+     <Compile Include="Assets\Plugins\FMOD\FMOD_Listener.cs" />
+     <Compile Include="Assets\Plugins\FMOD\FMOD_StudioEventEmitter.cs" />
+     <Compile Include="Assets\Plugins\FMOD\OneshotList.cs" />
+     <Compile Include="Assets\Plugins\FMOD\ParamRef.cs" />
+     <Compile Include="Assets\Plugins\FMOD\RuntimeManager.cs" />
+     <Compile Include="Assets\Plugins\FMOD\RuntimeUtils.cs" />
+     <Compile Include="Assets\Plugins\FMOD\Settings.cs" />
+     <Compile Include="Assets\Plugins\FMOD\StudioBankLoader.cs" />
+     <Compile Include="Assets\Plugins\FMOD\StudioEventEmitter.cs" />
+     <Compile Include="Assets\Plugins\FMOD\StudioListener.cs" />
+     <Compile Include="Assets\Plugins\FMOD\Wrapper\fmod.cs" />
+     <Compile Include="Assets\Plugins\FMOD\Wrapper\fmod_dsp.cs" />
+     <Compile Include="Assets\Plugins\FMOD\Wrapper\fmod_errors.cs" />
+     <Compile Include="Assets\Plugins\FMOD\Wrapper\fmod_studio.cs" />
      <Compile Include="Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\Standard Assets\2D\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Standard Assets\2D\Scripts\Lantern.cs" />
@@ -88,23 +105,17 @@
      <Compile Include="Assets\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Programme/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>D:/Programme/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
- <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ <HintPath>D:/Programme/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>D:/Programme/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
