@@ -41,11 +41,14 @@ public class House : MonoBehaviour
         }
         if (inRange == true && interaction == true && interacted == false && Power.flicker == false && Power.on == false)
         {
+            // play light switch sound
+            FMODUnity.RuntimeManager.PlayOneShot("event:/light_switch", gameObject.transform.position);
+
             //Event
             interacted = true;
             house_anim.SetBool("powerFlicker", true);
             Debug.Log("Interacted");
-
+            
             //Turning On Lanterns
             GameObject lantern1 = GameObject.Find("Night-Environment-Assets-Lantern");
             Power lanternFlicker1 = (Power)lantern1.GetComponent(typeof(Power));

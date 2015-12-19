@@ -1,4 +1,7 @@
+{a9fcf733-dc2d-47a2-ab4e-a6f6d90addc5} event:/lamp_buzz
+{c628e86b-fcce-4253-8695-95e7f277da41} event:/light_switch
 {6319d7ca-5c57-4bd1-8ef1-11a2d63ab49a} event:/New Event
+{4555efb2-84d9-446a-b5b4-f11124921804} event:/powerbox
 {5c6ade30-9d55-4a46-ad4f-e857508b2b58} event:/robo_collision
 {a0e3f8b4-ca73-46d7-bfa2-012f620cc22b} event:/robo_idle
 {7f4ff50d-914e-479a-a3fe-2ff216139cf8} event:/robo_jump
