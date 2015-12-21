@@ -5,9 +5,11 @@
 {5c6ade30-9d55-4a46-ad4f-e857508b2b58} event:/robo_collision
 {a0e3f8b4-ca73-46d7-bfa2-012f620cc22b} event:/robo_idle
 {7f4ff50d-914e-479a-a3fe-2ff216139cf8} event:/robo_jump
-{132abb79-df15-43b0-adb6-823f844e352f} event:/robo_land
-{b480472b-4acd-4f1e-8062-d0b0d3cd6d1b} event:/robo_roll
+{c9f3c111-6bbc-44fd-80cd-ff36dcddc820} event:/robo_land
 {e893366e-46a7-4cea-b8d0-878bc41c6c10} event:/robo_roll_leaves
+{c8fe2bd7-55b9-41eb-9e1b-a51fdb6bdc39} event:/robo_roll_leavesScatter
+{b480472b-4acd-4f1e-8062-d0b0d3cd6d1b} event:/robo_rollLoop
+{71155250-bcd1-4f40-9a2b-46890ba70f35} event:/robo_rollScatter
 {b05b751f-4139-411e-8ebb-0959f5e50e66} bus:/
 {16b6edfd-f647-4f2e-8259-fca4dc6990fa} bus:/Reverb
 {219ee8a4-792c-4219-8b08-f1053d466834} bank:/Master Bank
