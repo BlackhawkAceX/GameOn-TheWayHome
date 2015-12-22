@@ -11,6 +11,7 @@ public class PowerBox : MonoBehaviour {
     private Transform pos_powerBox;
     private Animator box_anim;
     private bool interaction;
+    private FMOD.Studio.EventInstance lampBuzz;
 
     // Use this for initialization
     void Awake()
@@ -40,6 +41,9 @@ public class PowerBox : MonoBehaviour {
         }
         if (inRange == true && interaction == true && interacted == false && Power.flicker == true)
         {
+           // play repair sound
+           FMODUnity.RuntimeManager.PlayOneShot("event:/repair", gameObject.transform.position);
+
            //Event
            interacted = true;
            box_anim.SetBool("powerOn", true);
@@ -61,6 +65,11 @@ public class PowerBox : MonoBehaviour {
            GameObject house = GameObject.Find("Night-Environment-Assets-House");
            Power houseOn = (Power)house.GetComponent(typeof(Power));
            houseOn.PowerOn(true);
+
+           // play lamp buzz sound
+           lampBuzz = FMODUnity.RuntimeManager.CreateInstance("event:/lamp_buzz");
+           lampBuzz.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
+           lampBuzz.start();
         }
     }
 }

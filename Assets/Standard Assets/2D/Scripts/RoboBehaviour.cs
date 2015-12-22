@@ -5,12 +5,18 @@ public class RoboBehaviour : StateMachineBehaviour {
 
     private bool playOnceJump = true;
     private bool playOnceLand = true;
-    FMOD.Studio.EventInstance idleSound;
-    FMOD.Studio.EventInstance rollSound;
-    FMOD.Studio.EventInstance leavesSound;
+    private FMOD.Studio.EventInstance talkSound;
+    private FMOD.Studio.EventInstance idleSound;
+    private FMOD.Studio.EventInstance rollSound;
+    private FMOD.Studio.EventInstance leavesSound;
 
 	 // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
+        if (talkSound == null)
+        {
+            talkSound = FMODUnity.RuntimeManager.CreateInstance("event:/robo_talk");
+            talkSound.start();
+        }
         if (idleSound == null)
         {
             idleSound = FMODUnity.RuntimeManager.CreateInstance("event:/robo_idle");
@@ -34,18 +40,28 @@ public class RoboBehaviour : StateMachineBehaviour {
 	//}
 
 	// OnStateExit is called when a transition ends and the state machine finishes evaluating this state
-	//override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-	//
-	//}
+	override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
+        talkSound.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        idleSound.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        rollSound.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        leavesSound.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+	}
 
 	// OnStateMove is called right after Animator.OnAnimatorMove(). Code that processes and affects root motion should be implemented here
 	override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-        // play idle sound
+        // play talk and idle sound
+        talkSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(animator.gameObject.transform));
         idleSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(animator.gameObject.transform));
-        if ((animator.GetFloat("Speed") == 0) && (animator.GetFloat("vSpeed") == 0))
+        if ((animator.GetFloat("Speed") != 1) && (animator.GetFloat("vSpeed") == 0))
+        {
+            talkSound.setVolume(1);
             idleSound.setVolume(1);
+        }
         else
+        {
+            talkSound.setVolume(0);
             idleSound.setVolume(0);
+        }
         
         // play roll sound according to speed parameter
         rollSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(animator.gameObject.transform));
