@@ -1,3 +1,4 @@
+{40c0a64f-ef8f-4504-80cd-bc3a3feea711} event:/atmo_lvl2
 {a9fcf733-dc2d-47a2-ab4e-a6f6d90addc5} event:/lamp_buzz
 {eaa88c2e-823c-4e26-b25d-21f717f8e50c} event:/light_flicker
 {c628e86b-fcce-4253-8695-95e7f277da41} event:/light_switch
