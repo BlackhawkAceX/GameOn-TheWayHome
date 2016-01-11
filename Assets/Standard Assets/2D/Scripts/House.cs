@@ -42,7 +42,7 @@ public class House : MonoBehaviour
         if (inRange == true && interaction == true && interacted == false && Power.flicker == false && Power.on == false)
         {
             // play light switch sound
-            FMODUnity.RuntimeManager.PlayOneShot("event:/light_switch", gameObject.transform.position);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/light_switch", gameObject.transform.GetChild(0).position);
 
             //Event
             interacted = true;
