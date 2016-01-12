@@ -65,6 +65,14 @@ public class PowerBox : MonoBehaviour {
            GameObject house = GameObject.Find("Night-Environment-Assets-House");
            Power houseOn = (Power)house.GetComponent(typeof(Power));
            houseOn.PowerOn(true);
+			House house1 = (House)house.GetComponent (typeof(House));
+			house1.disableCollision();
+
+			//Tower
+			GameObject tower = GameObject.Find("Night-Environment-Assets-Tower");
+			Tower towerOn = (Tower)tower.GetComponent (typeof(Tower));
+			towerOn.PowerOn (true);
+
 
            // play lamp buzz sound
            lampBuzz = FMODUnity.RuntimeManager.CreateInstance("event:/lamp_buzz");
