@@ -9,14 +9,14 @@ public class House : MonoBehaviour
     public float interactionDistance = 1.5f;
     private bool inRange = false;
     private bool interacted = false;
-    private Transform pos_House;
+    private Transform house;
     private Animator house_anim;
     private bool interaction;
 
     // Use this for initialization
     void Awake()
     {
-        pos_House = transform;
+        house = transform;
         house_anim = GetComponent<Animator>();
     }
 
@@ -29,12 +29,12 @@ public class House : MonoBehaviour
     public void Interaction_House()
     {
         // Check if character is in Interaction Distance
-        if (Vector2.Distance(pos_House.position, PlatformerCharacter2D.m_InteractionCheck.position) <= interactionDistance)
+        if (Vector2.Distance(house.position, PlatformerCharacter2D.m_InteractionCheck.position) <= interactionDistance)
         {
             inRange = true;
             //    Debug.Log("Interactable");
         }
-        else if (Vector2.Distance(pos_House.position, PlatformerCharacter2D.m_InteractionCheck.position) > interactionDistance)
+        else if (Vector2.Distance(house.position, PlatformerCharacter2D.m_InteractionCheck.position) > interactionDistance)
         {
             inRange = false;
             //    Debug.Log("Not Interactable");
@@ -67,4 +67,8 @@ public class House : MonoBehaviour
             powerBoxFlicker.PowerFlicker(true);
         }
     }
+	public void disableCollision()
+	{
+		Destroy (GetComponent<EdgeCollider2D>());
+	}
 }
