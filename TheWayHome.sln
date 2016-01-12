@@ -5,6 +5,8 @@ Project("{CC223083-FB7A-0464-A384-7A39ED99A94D}") = "TheWayHome", "Assembly-CSha
 EndProject
 Project("{CC223083-FB7A-0464-A384-7A39ED99A94D}") = "TheWayHome", "Assembly-CSharp.csproj", "{A6F8ED80-4691-4257-D491-E547FFD207F3}"
 EndProject
+Project("{CC223083-FB7A-0464-A384-7A39ED99A94D}") = "TheWayHome", "Assembly-CSharp-Editor-firstpass.csproj", "{99F6F338-0DFE-55D0-20F9-95F5A35335B6}"
+EndProject
 Project("{CC223083-FB7A-0464-A384-7A39ED99A94D}") = "TheWayHome", "Assembly-CSharp-Editor.csproj", "{35CF46DC-7094-608A-A695-8EDC9335C762}"
 EndProject
 Global
@@ -21,6 +23,10 @@ Global
 		{A6F8ED80-4691-4257-D491-E547FFD207F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6F8ED80-4691-4257-D491-E547FFD207F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6F8ED80-4691-4257-D491-E547FFD207F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F6F338-0DFE-55D0-20F9-95F5A35335B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F6F338-0DFE-55D0-20F9-95F5A35335B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F6F338-0DFE-55D0-20F9-95F5A35335B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F6F338-0DFE-55D0-20F9-95F5A35335B6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{35CF46DC-7094-608A-A695-8EDC9335C762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{35CF46DC-7094-608A-A695-8EDC9335C762}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35CF46DC-7094-608A-A695-8EDC9335C762}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,7 +35,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																											GlobalSection(MonoDevelopProperties) = preSolution
+																																	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
